@@ -1,0 +1,6 @@
+print("Write a series of comma separated numbers")
+inp = input()
+lis = list(inp.split(","))
+print(lis)
+tup = tuple(inp.split(","))
+print(tup)
