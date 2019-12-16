@@ -1,0 +1,5 @@
+print("First name:")
+first_name = input()
+print("Last name:")
+last_name = input()
+print(last_name + "," + first_name)
