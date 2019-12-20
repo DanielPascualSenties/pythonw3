@@ -12,4 +12,3 @@ for col1 in cols:
                                   (col1, col2))
 solutions = problem.getSolutions()
 print(solutions)
-

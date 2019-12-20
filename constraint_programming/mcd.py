@@ -10,7 +10,7 @@ problem.addVariable(top,top)
 
 for num in top:
     if num > 0:
-        problem.addConstraint(n1 % num == 0, num)
+        problem.addConstraint(lambda numer: n1 % numer == 0, (num))
 #    problem.addConstraint(n2 % num == 0)
 
 solutions = problem.getSolutions()
