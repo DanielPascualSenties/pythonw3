@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
-import MySQLdb
 
 
 app = tk.Tk()
 app.geometry('400x100')
+app.title('Crit finder 3.0')
 
 
 def showchoice():
